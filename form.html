@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+
+  <body>
+    <div class="form-container">
+      <div class="form">
+        <form>
+          <div>
+            <h3>Contact Details</h3>
+            <div class="form-field">
+              <div class="form-input">
+                <label for="full-name">First name</label><br />
+                <input type="text" id="full-name" name="full-name" />
+              </div>
+              <div class="form-input">
+                <label for="patient-id">Patient-id</label><br />
+                <input type="text" id="patient-id" name="patient-id" />
+              </div>
+            </div>
+            <div class="form-field">
+              <div class="form-input">
+                <label for="contact">Contact Number</label><br />
+                <input type="text" id="contact" name="contact" />
+              </div>
+              <div class="form-input">
+                <label for="email">Email id:</label><br />
+                <input type="text" id="email" name="email" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3>Address</h3>
+            <div class="form-field">
+              <div class="form-input">
+                <label for="h-no">House Number</label><br />
+                <input type="text" id="h-no" name="h-no" />
+              </div>
+              <div class="form-input">
+                <label for="street">Street</label><br />
+                <input type="text" id="street" name="street" />
+              </div>
+            </div>
+            <div class="form-field">
+              <div class="form-input">
+                <label for="area">Area</label><br />
+                <input type="text" id="area" name="area" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3>Choose the Test Type</h3>
+            <div>
+              <input type="checkbox" checked="checked" />
+              <label class="container">CBC</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label class="container">Complete Urine</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label class="container">Lipid Profile</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label class="container">Thyroid Stimulating Hormone(TSH) </label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label class="container">Glucose Test</label>
+            </div>
+          </div>
+          <div>
+            <h3>Do you want a hard copy of the report also?</h3>
+            <input type="radio" id="yes" name="hard-copy" value="Yes" />
+            <label for="yes">Yes</label><br />
+            <input type="radio" id="no" name="hard-copy" value="Yes" />
+            <label for="no">No</label>
+          </div>
+          <div>
+            <h3>Select Your Comfortable Date and Time</h3>
+            <input type="date" id="date" name="date" />
+            <label for="yes">Date</label><br />
+            <input type="time" id="time" name="time" />
+            <label for="time">Time</label>
+          </div>
+        </form>
+      </div>
+      <div class="form-image">
+        <img src="./images/Lab-Test/lab-test.jpg" alt="lab-test-img" />
+      </div>
+    </div>
+    <div class="buttons-section">
+      <button>Submit</button><button>Reset</button>
+    </div>
+  </body>
+</html>
